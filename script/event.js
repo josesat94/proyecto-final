@@ -108,9 +108,10 @@ datosUsuario.addEventListener("submit", (e) => {
 
 //Eliminar carrito
 borrar.addEventListener("click", (e) => {
-    e.preventDefault();
-    listaPaquetes.innerHTML = ""
-    EliminarPaquete();
+  e.preventDefault();
+  listaPaquetes.innerHTML = ""
+  EliminarPaquete();
+  Agregar();//PARA QUE NO SEA NECESARIO ACTUALIZAR LA PAGINA, DE LO CONTRARIO SE VUELVE A CARGAR EL PAQUETE SI NO SE ACTUALIZA.
 });
 
 document.addEventListener("DOMContentLoaded", Agregar());
