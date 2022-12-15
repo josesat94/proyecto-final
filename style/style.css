@@ -1,0 +1,51 @@
+
+h1{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+
+.containerGeneral{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 300px;
+    margin-right: 300px;
+    background-color: rgb(130, 130, 172);
+    padding: 20px;
+    border-radius: 15px;
+}
+
+img{
+    width: 100px;
+}
+
+.btn btn-success{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnAgregar{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+section button.btn.btn-success{
+    background-color: rgb(255, 0, 0);
+    border-color: rgb(249, 0, 0);
+}
